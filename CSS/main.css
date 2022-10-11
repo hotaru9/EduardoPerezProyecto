@@ -1,6 +1,7 @@
 .menu{
     background-color: #b1281c;
     padding: 16px;
+    font-family: 'Times New Roman', Times, serif;
 
     display: flex;
     flex-direction: row;
@@ -26,8 +27,10 @@
     height: auto;
     display: flex;
     color: white;
+    font-family: 'Times New Roman', Times, serif;
     justify-content:end;
     align-items: flex-end;
+    
 }
 .inicio img {
     justify-content: right;
