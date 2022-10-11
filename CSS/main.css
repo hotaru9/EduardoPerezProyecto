@@ -21,8 +21,19 @@
 }
 .menu ul li a{
     text-decoration: none;
+    position: relative;
     color: white;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+
 }
+.menu ul li a:hover, a:focus {
+    background-size: 100% 2px;
+}
+
 .inicio {
     height: auto;
     display: flex;
