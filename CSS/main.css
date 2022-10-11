@@ -76,3 +76,27 @@
     color: white;
     text-align: end;
 }
+.mainpage5{
+    display: flex;
+    flex-direction: row
+}
+.textopage5{
+    display: flex;
+    margin: auto;
+    text-align: left;
+}
+.textopage5 ul {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.maincard {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 150px;
+
+}
