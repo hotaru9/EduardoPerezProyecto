@@ -53,3 +53,26 @@
     display: inline-block;
     border-collapse: collapse;
 }
+
+
+.cuerpopage2 {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+.textopage2{
+    display: flex;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    bottom: 100px;
+    align-items: unset;
+    
+}
+.textopage2 ul {
+
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: end;
+}
