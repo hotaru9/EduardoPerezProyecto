@@ -1,0 +1,114 @@
+.menu{
+    background-color: #b1281c;
+    padding: 16px;
+    font-family: 'Times New Roman', Times, serif;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    ul{
+        list-style: none;
+        text-decoration: none;
+
+        li{
+            display: inline-block;
+            padding: 8px;
+            margin: 0 4px;
+
+            a{
+                text-decoration: none;
+                position: relative;
+                color: white;
+                background-image: linear-gradient(currentColor, currentColor);
+                background-position: 0% 100%;
+                background-repeat: no-repeat;
+                background-size: 0% 2px;
+                transition: background-size .3s;
+            }
+        }
+    }
+}
+
+.menu ul li a:hover, a:focus {
+    background-size: 100% 2px;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .menu {
+        flex-direction: column;
+    }
+}
+
+.inicio {
+    height: auto;
+    display: flex;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content:end;
+    align-items: flex-end;
+
+
+    img{
+        justify-content: right;
+        width: 80%;
+        border-collapse: collapse;
+    }
+
+    ul{
+        padding: 1px;
+        display: inline-block;
+        border-collapse: collapse;
+    }
+    
+}
+
+.cuerpopage2 {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+.textopage2{
+    display: flex;
+    padding-bottom: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    bottom: 100px;
+    align-items: unset;
+
+    ul{
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        text-align: end;
+    }
+    
+}
+
+.mainpage5{
+    display: flex;
+    flex-direction: row
+}
+.textopage5{
+    display: flex;
+    margin: auto;
+    text-align: left;
+
+    ul{
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: left;
+    }
+}
+
+.maincard {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 150px;
+
+}
