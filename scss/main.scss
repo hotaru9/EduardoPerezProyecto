@@ -112,3 +112,34 @@
     padding-top: 150px;
 
 }
+.footer {
+    background-color: black;
+    flex-direction: column;
+    display: flex;
+    padding-left: 40%;
+ 
+
+    .footertext{
+        display: flex;
+        padding: auto;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+
+    .redes{
+        display: inline-block;
+        justify-content: flex-start;
+        
+        padding-left: 9%;
+        color: white;
+        text-decoration: none;
+        
+        svg{
+            color: white;
+            width: 25px;
+            height: 25px;
+        }
+
+    }
+}

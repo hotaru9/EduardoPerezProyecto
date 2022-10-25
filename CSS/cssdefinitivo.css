@@ -83,3 +83,24 @@
   justify-content: space-around;
   margin: auto;
   padding-top: 150px; }
+
+.footer {
+  background-color: black;
+  flex-direction: column;
+  display: flex;
+  padding-left: 40%; }
+  .footer .footertext {
+    display: flex;
+    padding: auto;
+    color: white;
+    font-family: 'Times New Roman', Times, serif; }
+  .footer .redes {
+    display: inline-block;
+    justify-content: flex-start;
+    padding-left: 9%;
+    color: white;
+    text-decoration: none; }
+    .footer .redes svg {
+      color: white;
+      width: 25px;
+      height: 25px; }
