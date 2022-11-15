@@ -108,4 +108,8 @@
       height: 25px; }
 
 .formulario {
-  color: white; }
+  color: white;
+  position: relative;
+  top: 90%;
+  padding-left: 40%;
+  padding-top: 10%; }
