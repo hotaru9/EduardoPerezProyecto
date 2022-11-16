@@ -46,10 +46,9 @@
     display: inline-block;
     border-collapse: collapse; }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .inicio {
-    width: 120px;
-    height: auto; } }
+    flex-direction: column; } }
 
 .cuerpopage2 {
   display: flex;
@@ -69,6 +68,14 @@
     color: white;
     text-align: end; }
 
+@media screen and (max-width: 768px) {
+  .cuerpopage2 {
+    flex-direction: column; }
+    .cuerpopage2 img {
+      width: 400px;
+      height: auto;
+      padding-bottom: 100px; } }
+
 .mainpage5 {
   display: flex;
   flex-direction: row; }
@@ -81,6 +88,14 @@
     color: white;
     font-family: 'Times New Roman', Times, serif;
     text-align: left; }
+
+@media screen and (max-width: 768px) {
+  .mainpage5 {
+    flex-direction: column; }
+    .mainpage5 img {
+      width: 400px;
+      height: auto;
+      padding-bottom: 100px; } }
 
 .maincard {
   display: flex;
@@ -112,9 +127,20 @@
       width: 25px;
       height: 25px; }
 
+@media screen and (max-width: 768px) {
+  .footer {
+    padding-top: 40%;
+    padding-right: 40%;
+    width: auto;
+    height: auto; } }
+
 .formulario {
   color: white;
   position: relative;
   top: 90%;
   padding-left: 40%;
   padding-top: 10%; }
+
+@media screen and (max-width: 768px) {
+  .formulario {
+    right: 30%; } }
