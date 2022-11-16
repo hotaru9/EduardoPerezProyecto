@@ -65,6 +65,13 @@
     
 }
 
+@media screen and (min-width:768px) { 
+    .inicio {
+          width:120px;
+          height:auto;
+      }
+  }
+
 .cuerpopage2 {
     display: flex;
     flex-direction: row;
